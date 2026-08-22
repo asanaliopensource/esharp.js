@@ -1,0 +1,26 @@
+{
+  "name": "esharp-js",
+  "version": "1.0.0",
+  "description": "Легковесный инструмент для сборки десктопных WebView2 приложений на C# через XML-синтаксис",
+  "main": "main.ts",
+  "bin": {
+    "esharp": "./main.ts"
+  },
+  "scripts": {
+    "start": "ts-node main.ts"
+  },
+  "keywords": [
+    "esharp",
+    "webview2",
+    "desktop",
+    "lightweight",
+    "no-electron"
+  ],
+  "author": "asanalidev",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
